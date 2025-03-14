@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#product-list li {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Add some space between products */
+    border: 1px solid #ccc; /* Optional: Add a border for styling */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#product-list li img {
+    margin-right: 20px; /* Space between image and text */
+    border-radius: 8px; /* Optional: Rounded corners for images */
+}
+
+#product-list li h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#product-list li p {
+    margin: 5px 0; /* Spacing between paragraphs */
+    color: #666;
+    font-size: 0.9rem;
+}
+
+#product-list li p.price {
+    font-size: 1.2rem; /* Make the price larger */
+    font-weight: bold; /* Make the price bold */
+    color: #000;
+}
